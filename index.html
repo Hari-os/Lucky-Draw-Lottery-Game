@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header{
+            text-align: center;
+            font-size: 45px;
+            color: rgb(148, 123, 91);
+        }
+        #number_shown{
+            text-align: center;
+            font-size: 45px;
+            color: rgb(150, 59, 210);
+        }
+        #pick_number{
+            display: flex;
+            justify-content: center;
+        }
+        #hello:hover{
+            background-color:   rgb(177, 204, 204);
+
+        }
+        #hello{
+            padding: 25px;
+            font-size: 25px;
+            color:white;
+            border: 0px;;
+            border-radius: 20px;
+            background-color: rgb(152, 172, 172);
+        }
+        .lotter_box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .box{
+            width:200px;
+            height: 40px;
+            background-color: coral;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .winning-box{
+            background-color: rgb(106, 200, 106);
+            box-shadow: 2px 4px 5px 4px rgb(50, 176, 50);
+            border-radius: 10px;
+            color: white;
+        }
+        .highlighteBox{
+            border:0;
+            background-color: rgb(130, 173, 173);
+            box-shadow: 2px 4px 5px 4px rgb(233, 80, 25);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p id="header">🤩 Lottery game 👸...🤴</p>
+    <div class="lotter_box" id="lotter-box">
+        <!-- <div class="box winning-box highlighteBox ">Smartphone</div> -->
+        <!-- <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div>
+        <div class="box">Smartphone</div> -->
+    </div>
+    <p id="number_shown"></p>
+    <div id="pick_number">
+    <button id="hello" >Pick a Number</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
